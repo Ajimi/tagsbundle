@@ -2,6 +2,12 @@ tag:
     resource: "@TagBundle/Resources/config/routing.yml"
     prefix:   /
 
+api:
+    resource: '.'
+    type: 'api_platform'
+    prefix: '/api' # Optional
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
