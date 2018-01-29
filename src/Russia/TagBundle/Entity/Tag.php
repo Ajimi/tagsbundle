@@ -2,12 +2,14 @@
 
 namespace Russia\TagBundle\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Tag
  *
  * @ORM\Table(name="tag")
+ * @ApiResource
  * @ORM\Entity(repositoryClass="Russia\TagBundle\Repository\TagRepository")
  */
 class Tag

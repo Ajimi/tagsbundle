@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 use Russia\TagBundle\Concern\Taggable;
 
@@ -9,6 +10,7 @@ use Russia\TagBundle\Concern\Taggable;
  * Article
  *
  * @ORM\Table(name="article")
+ * @ApiResource
  * @ORM\Entity(repositoryClass="AppBundle\Repository\ArticleRepository")
  */
 class Article
